@@ -1,7 +1,7 @@
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
-import App from './src/App.jsx';
-import './src/index.css';
+import App from './App.jsx';
+import './index.css';
 
 console.log('ArcadeHub: Bootstrapping application...');
 
@@ -20,6 +20,8 @@ if (!rootElement) {
     console.log('ArcadeHub: Rendered successfully');
   } catch (err) {
     console.error('ArcadeHub Runtime Error:', err);
-    rootElement.innerHTML = `<div style="padding: 20px; color: white;"><h1>Runtime Error</h1><pre>${err.stack}</pre></div>`;
+    if (rootElement) {
+      rootElement.innerHTML = `<div style="padding: 20px; color: white;"><h1>Runtime Error</h1><pre>${err.stack}</pre></div>`;
+    }
   }
 }
