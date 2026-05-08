@@ -1,0 +1,34 @@
+[
+  {
+    "id": "speed-racer",
+    "title": "Neon Speed Racer",
+    "description": "High-octane racing through futuristic cityscapes. Avoid obstacles and reach the finish line.",
+    "category": "Racing",
+    "thumbnail": "https://picsum.photos/seed/race/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html"
+  },
+  {
+    "id": "space-battler",
+    "title": "Starship Defender",
+    "description": "Defend the galaxy against endless waves of alien invaders in this classic shooter.",
+    "category": "Action",
+    "thumbnail": "https://picsum.photos/seed/space/400/300",
+    "iframeUrl": "https://mario.pancakeapps.com/"
+  },
+  {
+    "id": "zen-blocks",
+    "title": "Zen Block Puzzle",
+    "description": "Relax and clear your mind with this atmospheric block-slapping puzzle challenge.",
+    "category": "Puzzle",
+    "thumbnail": "https://picsum.photos/seed/puzzle/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html"
+  },
+  {
+    "id": "cyber-ninja",
+    "title": "Cyber Ninja Run",
+    "description": "Test your reflexes in this ultra-fast parkour runner set in a dystopian future.",
+    "category": "Platformer",
+    "thumbnail": "https://picsum.photos/seed/ninja/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html"
+  }
+]

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-accent: #ffffff;
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  --color-bg-pure: #000000;
+}
+
+body {
+  @apply bg-bg-pure text-white antialiased overflow-x-hidden;
+}
+
+/* Sleek UI elements */
+.sleek-card {
+  @apply bg-zinc-900/40 backdrop-blur-md border border-white/5 rounded-3xl transition-all duration-300;
+}
+
+.sleek-card:hover {
+  @apply border-white/20 bg-zinc-900/60;
+}
+
+.sleek-pill {
+  @apply px-4 py-2 rounded-full border border-white/10 text-xs font-medium uppercase tracking-widest bg-transparent hover:bg-white hover:text-black transition-all duration-300;
+}
+
+.sleek-pill.active {
+  @apply bg-white text-black border-white;
+}
+
+/* Custom scrollbar - minimal and sleek */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors;
+}
+
+/* Refined transitions */
+.page-transition {
+  @apply transition-all duration-500 ease-out;
+}
